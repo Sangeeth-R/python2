@@ -1,0 +1,6 @@
+s = input("Enter elements separated by commas: ")
+t = tuple(map(int, s.split(",")))
+print("Tuple:", t)
+li = list(t)
+li.sort()
+print("Sorted list:", li)
