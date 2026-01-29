@@ -1,8 +1,0 @@
-import numpy as np
-n = int(input("Enter number of elements: "))
-a = [int(input()) for i in range(n)]
-a = np.array(a)
-row = int(input("Enter rows: "))
-a2 = a.reshape(row, n//row)
-print(a2)
-print(a2[:, :2])
