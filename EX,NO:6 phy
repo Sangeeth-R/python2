@@ -1,0 +1,16 @@
+Program
+import numpy as np
+n = int(input("Enter the number of elements for the 1D array: "))
+print(f'Enter {n} elements for the ID array:")
+a=[]
+for i in range(n):
+element = int(input(f'Element {i+1}: "))
+a.append(element)
+a = np.array(a)
+row = int(input("Enter the number of rows for the 2D array: "))
+col = int(n/row)
+a2 = a.reshape(row, col)
+print("2D array:")
+print(a2)
+print("First two columns:")
+print(a2[:, :2])
