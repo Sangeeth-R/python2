@@ -1,0 +1,18 @@
+d= {}
+n = int(input("Enter the number of key-value pairs: "))
+for i in range(n):
+L.5
+key = input(f"Enter key (i+1}:")
+value = input(f"Enter value for key '{key}':")
+d[key] = value
+print("Dictionary created:", d)
+keycheck = input("Enter the key to check: ")
+if keycheck in d:
+print(f'The key '{keycheck)' exists in the dictionary.")
+else:
+print(f'The key '{keycheck}' does not exist in the dictionary.")
+valuecheck = input("Enter the value to check: ")
+if valuecheck in d.values():
+print(f'The value '{valuecheck}' exists in the dictionary.")
+else:
+print(f'The value '{valuecheck}' does not exist in the dictionary.")
